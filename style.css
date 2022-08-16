@@ -10,6 +10,7 @@ body{
     max-width: 1160px;
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -18,13 +19,48 @@ body{
 }
 .menu{
     display: flex;
+    flex-wrap: wrap;
     gap: 60px;
 }
 .menu a{
+    display: inline-block;
     margin: 0px;
     padding: 0px;
+    padding: 16px 0px;
     text-decoration: none;
     color: #ffff;
+    font-size: 18px;
+    font
+} 
+.menu a:hover{
+    text-decoration:underline;
+    transition : 0.3 s;
+}  
+@media (max-width: 600px){
+    .menu{
+        gap:20px
+    }
+    .menu a{
+        padding: 12px 16px;
+        border-radius: 4px;
+    }
+    .menu a:hover{
+        background-color: #141414;
+        text-decoration:underline;
+    }
 }
-  
-
+@media (max-width: 400px){
+    .menu{
+        gap:12px
+    }
+    .menu a{
+        background-color: #141414;
+        padding: 8px 12px;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    .menu a:hover{
+        background-color: #141414;
+        text-decoration:underline;
+    }
+}
