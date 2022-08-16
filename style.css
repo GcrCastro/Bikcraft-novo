@@ -1,7 +1,13 @@
 body{
-
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+}
+h1,p,ul{
+    margin:0px;
+}
+img{
+    max-width: 100%;
+    display: inline-block;
 }
 .header-bg{
     background-color: #000;
@@ -23,14 +29,12 @@ body{
     gap: 60px;
 }
 .menu a{
-    display: inline-block;
     margin: 0px;
     padding: 0px;
     padding: 16px 0px;
     text-decoration: none;
     color: #ffff;
     font-size: 18px;
-    font
 } 
 .menu a:hover{
     text-decoration:underline;
@@ -63,4 +67,59 @@ body{
         background-color: #141414;
         text-decoration:underline;
     }
+}
+.intro-bg{
+    background-color: #000;
+}
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 62px;
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro-titulo{
+    color:#ffff;
+    font-size: 64px;
+    font-weight: bolder;
+    line-height: 72px;
+    grid-column: 1;
+    margin-top: 200px;
+    margin-bottom: 32px;
+}
+.ponto{
+    color: #FFB800;
+}
+.intro-parag{
+    grid-column: 1;
+    color: #9A9A9A;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.intro-link{
+    display: inline-block;
+    grid-column: 1;
+    color: #000;
+    background: linear-gradient(180deg, #FFB800 0%, #FFE600 100%);
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 16px 32px;
+    border-radius: 4px;
+    text-decoration: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 9, 0.1);
+    text-transform: uppercase;
+}
+.intro-link:hover{
+    background: linear-gradient(180deg, #FFF900 0%, #FFE900 100%);
+}
+
+.intro-img{
+    display:block;
+    grid-column:2;
+    grid-row: 1/-1;;
+    max-height:100%;
+
+
 }
