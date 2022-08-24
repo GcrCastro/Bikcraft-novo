@@ -8,5 +8,5 @@ h1,p,ul,h2,h3{
 img{
     max-width: 100%;
     display: inline-block;
-    border-radius: 4px;
+    border-radius:4px;
 }
