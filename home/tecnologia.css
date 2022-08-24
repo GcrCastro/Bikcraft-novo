@@ -1,0 +1,95 @@
+.tecnologia-bg{
+    background-color: var(--cor-12);
+    margin-top: 160px;
+    box-shadow: inset 0 -120px var(--cor-1);
+}
+.tecnologia-container{
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    gap: 64px;
+    grid-template-columns: 1fr 1fr;
+}
+.tecnologia-container h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--cor-3);
+    padding-top: 136px;
+}
+.tecnologia-container h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--cor-1);
+    padding-top: 8px;
+}
+.tecnologia-container h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--cor-4);
+    padding-top: 40px;
+}
+.tecnologia-container p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--cor-13);
+    padding-top: 16px;
+    text-decoration: underline;
+}
+.tecnologia-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+        
+
+}
+@media (max-width: 1000px){
+    .tecnologia-bg{
+        box-shadow: none;
+    }
+    .tecnologia-container h1{
+        font-size: 48px;
+        line-height: 56px;
+    }
+    .tecnologia-container h3{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .tecnologia-container p{
+        font-size: 18px;
+        line-height: 24px; 
+    }
+}
+@media (max-width: 800px){
+    .tecnologia-bg{
+        margin-top: 80px;
+    }
+    .tecnologia-container{
+        padding-left: 20px;
+    }
+    .tecnologia-container h2{
+        padding-top: 80px;
+    }
+    .tecnologia-container p{
+        padding-bottom: 40px;
+    }
+    .tecnologia-container img{
+    
+    }
+}
+@media (max-width: 600px){
+    
+}

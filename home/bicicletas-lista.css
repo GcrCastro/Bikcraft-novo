@@ -1,0 +1,215 @@
+.escolha{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.escolha-bg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.magic{
+    grid-column: 1;
+    grid-row: 1;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 40px;
+}
+.magic-nome{
+    display:inline;
+    grid-column: 1;
+    grid-row: 2;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+.preco-magic{
+    grid-column: 1;
+    grid-row: 3;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #5E5E5E;
+    margin-top: 8px;
+}
+.nebula{
+    grid-column: 2;
+    grid-row: 1;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 0;
+    margin-right: 40px;
+}
+.nebula-nome{
+    grid-column: 2;
+    grid-row: 2;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+.preco-nebula{
+    grid-column: 2;
+    grid-row: 3;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #5E5E5E;
+    margin-top: 8px;
+}
+.nimbus{
+    grid-column: 3;
+    grid-row: 1;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 40px;
+}
+.nimbus-nome{
+    grid-column: 3;
+    grid-row: 2;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+.preco-nimbus{
+    grid-column: 3;
+    grid-row: 3;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #5E5E5E;
+    margin-top: 8px;
+}
+@media (max-width: 1000px){
+    .escolha{
+        font-size:48px;
+}
+.magic-nome{
+    font-size:24px;
+    line-height: 32px;
+}
+.preco-magic{
+    font-size: 18px;
+    line-height: 24px;
+}
+.nebula-nome{
+    font-size:24px;
+    line-height: 32px;
+}
+.preco-nebula{
+    font-size: 18px;
+    line-height: 24px;
+}
+.nimbus-nome{
+    font-size:24px;
+    line-height: 32px;
+}
+.preco-nimbus{
+    font-size: 18px;
+    line-height: 24px;
+}
+}
+@media (max-width: 600px){
+    .escolha{
+        font-size:40px;
+}
+.escolha-bg{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.magic-nome{
+    font-size:20px;
+    line-height: 24px;
+}
+.preco-magic{
+    font-size: 16px;
+    line-height: 20px;
+}
+.nebula-nome{
+    font-size:20px;
+    line-height: 24px;
+}
+.preco-nebula{
+    font-size: 16px;
+    line-height: 20px;
+}
+.nimbus-nome{
+    font-size:20px;
+    line-height: 24px;
+}
+.preco-nimbus{
+    font-size: 16px;
+    line-height: 20px;
+}
+}
+@media (max-width: 400px){
+.escolha{
+        font-size:20px;
+        padding-left: 8px;
+}
+.magic-nome{
+    font-size:14px;
+    line-height: 14px;
+    margin-top: 4px;
+
+}
+.preco-magic{
+    font-size: 12px;
+    line-height: 14px;
+}
+.nebula-nome{
+    font-size:14px;
+    line-height: 18px;
+    margin-top: 4px;
+}
+.preco-nebula{
+    font-size: 12px;
+    line-height: 14px;
+}
+.nimbus-nome{
+    font-size:14px;
+    line-height: 18px;
+    margin-top: 4px;
+}
+.preco-nimbus{
+    font-size: 12px;
+    line-height: 14px;
+}   
+.magic{
+    margin-right: 4px;
+}
+.nebula{
+    margin-right: 4px;
+}
+.nimbus{
+    margin-right: 4px;
+}
+.escolha{
+    margin-bottom: 4px;
+}
+}

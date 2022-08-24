@@ -2,10 +2,11 @@ body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-h1,p,ul{
+h1,p,ul,h2,h3{
     margin:0px;
 }
 img{
     max-width: 100%;
     display: inline-block;
+    border-radius: 4px;
 }

@@ -1,4 +1,9 @@
 @import "./header/header.css";
-@import "./intro/intro.css";
+@import "./home/intro.css";
 @import "./utilidades/utilidades.css";
+@import "./utilidades/cores.css";
+@import "./home/bicicletas-lista.css";
+@import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
 
