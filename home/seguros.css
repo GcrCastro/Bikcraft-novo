@@ -1,0 +1,111 @@
+.seguros-bg{
+    background-color: var(--cor-10);
+}
+.seguros{
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.seguro-titulo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--cor-1);
+    padding-top: 120px;
+    padding-bottom: 92px;
+}
+.ouro-prata{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 162px;
+}
+.seguro-prata{
+    display: grid;
+    grid-template-columns: 1 fr 1 fr;
+    background-color: var(--cor-12);
+}
+.seguro-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.seguro-grid h2{
+    display: inline-block;
+    grid-column: 1;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--cor-4);
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.lista-prata{
+    display: inline-block;
+    grid-column: 1;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--cor-4);
+    margin-left: 20px;
+}
+.lista-prata li{
+    list-style: none;
+    padding-top: 20px;
+}
+.lista-prata li:first-child{
+    padding-top: 0px;
+}
+.seguro-prata-link{
+    display: inline-block;
+    grid-column: 1;
+    color: var(--cor-3);
+    background: var(--cor-10);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 9, 0.1);
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 80px;
+}
+.preço-prata{
+    grid-column: 2;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--cor-1);
+    margin-top: 20px;
+    margin-left:-300px;
+}
+.preço-prata h2{
+    display: inline;
+    position: absolute;
+}
+.preço-prata p{
+    position: relative;
+    top: 30px;
+    left:110px;
+    display: inline;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--cor-4);
+    margin-top: 4px;
+
+}
