@@ -7,6 +7,7 @@
 }
 .depoimento img{
     height:100%;
+    width: 100%;
     object-fit: cover;
     object-position:right;
     border-radius:0px;
@@ -48,4 +49,34 @@
     line-height: 32px;
     color:var(--cor-12);
     padding-bottom: 64px;
+}
+@media (max-width: 1000px){
+    .depoimento{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .depoimento img{
+        object-position:top;
+    }
+    .depoimento-texto{
+        max-width: 64ch;
+        text-align: center;
+        margin: auto;
+        padding-top: 120px;
+        padding-left: 64px;
+        padding-right: 64px;
+
+    }
+    .depoimento-texto h2::before{
+        display: none;
+    }
+    .depoimento-texto h2::after{
+        display: none;
+    }
+}
+@media (max-width: 600px){
+    .depoimento-texto{
+        padding-left: 24px;
+        padding-right: 24px;
+    } 
 }
