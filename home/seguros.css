@@ -1,5 +1,6 @@
 .seguros-bg{
     background-color: var(--cor-10);
+    padding-bottom: 120px;
 }
 .seguros{
     max-width: 1160px;
@@ -17,16 +18,18 @@
     padding-bottom: 92px;
 }
 .ouro-prata{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 162px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
 }
 .seguro-prata{
     display: grid;
-    grid-template-columns: 1 fr 1 fr;
-    background-color: var(--cor-12);
+    grid-template-columns: 1fr auto;
+    background-color: var(--cor-12); 
 }
 .seguro-grid{
+    grid-column: 1;
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -45,7 +48,7 @@
 }
 .lista-prata{
     display: inline-block;
-    grid-column: 1;
+    grid-column: 1/-1;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -78,10 +81,10 @@
     text-transform: uppercase;
     margin-top: 60px;
     margin-left: 60px;
-    margin-bottom: 80px;
 }
 .preço-prata{
     grid-column: 2;
+    align-content: right;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -90,9 +93,9 @@
     color: var(--cor-1);
     margin-top: 20px;
     margin-left:-300px;
+    justify-items: end;
 }
 .preço-prata h2{
-    display: inline;
     position: absolute;
 }
 .preço-prata p{
@@ -108,4 +111,27 @@
     color: var(--cor-4);
     margin-top: 4px;
 
+}.seguro-ouro-link{
+    display: inline-block;
+    grid-column: 1;
+    color: var(--cor-12);
+    background: var(--cor-13);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 9, 0.1);
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+@media (max-width: 1000px){
+    .seguro-prata{
+        grid-template-columns: 1fr;
+}
 }
