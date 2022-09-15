@@ -1,0 +1,92 @@
+.body{
+    background-color: white;
+}
+.termo-titulo-bg{
+    background-color: var(--cor-11);
+}
+.termo-titulo{
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.titulo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--cor-3);
+    padding-bottom: 32px;
+}
+.termo-cond{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--cor-3);
+    text-align: left;
+}
+.texto-termo-cond{
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    max-width: 75ch;
+    align-items: left;
+}
+.estorno{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;;
+    font-size:24px ;
+    line-height: 32px;
+    margin-bottom: 20px; 
+    color: var(--cor-12);
+    padding-top: 80px;
+}
+.conta1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;;
+    font-size:24px ;
+    line-height: 32px;
+    margin-bottom: 20px; 
+    color: var(--cor-12);
+    padding-top: 40px;
+}
+.seguro1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;;
+    font-size:24px ;
+    line-height: 32px;
+    margin-bottom: 20px; 
+    color: var(--cor-12);
+    padding-top: 40px;
+}
+.termos{
+    list-style:none;
+}
+.termos p{
+    padding-bottom: 8px;
+    font: 400 16px "Roboto", sans-serif;
+    line-height:24px;
+    
+}
+.ultimo{
+    margin-bottom: 80px;
+}
+@media (max-width: 600px){
+    .titulo{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .termo-cond{
+        font-size: 52px;
+        line-height: 64px;
+    }
+}
