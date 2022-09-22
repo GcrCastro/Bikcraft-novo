@@ -1,0 +1,131 @@
+.vantagens-bg{
+    background-color: var(--cor-12);
+}
+.seguro-container{
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.seguro-vantagens{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--cor-1);
+    padding-top:120px;
+}
+.vantagens{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vantagens-bg h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--cor-1);
+    padding-top: 8px;
+}
+.vantagens-bg p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: var(--cor-3);
+    padding-top: 8px;
+}
+.perguntas{
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.seguro-perguntas{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--cor-12);
+    padding-top: 120px;
+    padding-bottom:48px;
+}
+.perguntas1{
+    background-color: var(--cor-5);
+    padding:20px;
+    display: grid;
+    grid-template-columns: 1fr 1 fr;
+    column-gap: 136px;   
+}
+.perguntas1 h2,p{
+    grid-column: 1;
+}
+.perguntas1 h2 ,p{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.perguntas1 p{
+    padding-top: 8px;
+    padding-left: 20px;
+}
+.perguntas1 h2::before{
+    content: "";
+    display: block;
+    width:12px;
+    height:8px;
+    background-color: var(--cor-13);
+    flex-direction: initial;
+    
+}
+.perguntas1 img{
+    grid-column: 2;
+}
+.perguntasn{
+    background-color: var(--cor-2);
+    padding: 20px;
+}
+.perguntasnlast{
+    background-color: var(--cor-2);
+    padding: 20px;
+    margin-bottom: 120px;
+}
+@media (max-width: 600px){
+    .seguro-vantagens{
+        font-size: 42px;
+        line-height: 60px;
+        padding-top:60px
+    }
+    .vantagens{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .vantagens-bg h2{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .vantagens-bg p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .seguro-perguntas{
+        font-size: 42px;
+        line-height: 60px;
+        padding-top: 60px;
+        padding-bottom:32px;
+    }
+    .perguntasnlast{
+        margin-bottom: 32px;
+    }
+}
